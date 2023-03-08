@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="CCameraMoveScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CMissileScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneSaveLoad.h" />
+    <ClInclude Include="CScriptMgr.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonsterScript.h">
+      <Filter>Script\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="CSkeleton_Archer.h">
+      <Filter>Script\Monster\1. Skeleton_Archer</Filter>
+    </ClInclude>
+    <ClInclude Include="CSkeleton_Lizard.h">
+      <Filter>Script\Monster\2. Skeleton_Lizard</Filter>
+    </ClInclude>
+    <ClInclude Include="CStoneEye.h">
+      <Filter>Script\Monster\3. StoneEye</Filter>
+    </ClInclude>
+    <ClInclude Include="CWolf.h">
+      <Filter>Script\Monster\4. Wolf</Filter>
+    </ClInclude>
+    <ClInclude Include="CWoodGolem.h">
+      <Filter>Script\Monster\5. WoodGolem</Filter>
+    </ClInclude>
+    <ClInclude Include="CBoss_Wolf.h">
+      <Filter>Script\Monster\6. Boss_Wolf</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerScript.h">
+      <Filter>Script\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayer_Weapon_Collider.h">
+      <Filter>Script\Player\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="CEffectScript.h">
+      <Filter>Script\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonster_Attack_Collider.h">
+      <Filter>Script\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="CGravity.h">
+      <Filter>Script\Gravity</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerArrow.h">
+      <Filter>Script\Player\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="CWall.h">
+      <Filter>Script\Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="CGuardScript.h">
+      <Filter>Script\Player\Guard</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonsterArrow.h">
+      <Filter>Script\Monster\1. Skeleton_Archer\Arrow</Filter>
+    </ClInclude>
+    <ClInclude Include="CShadowWolfScript.h">
+      <Filter>Script\Monster\6. Boss_Wolf</Filter>
+    </ClInclude>
+    <ClInclude Include="CParticleScript.h">
+      <Filter>Script\Effect\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerUIScript.h">
+      <Filter>Script\Player\PlayerUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonsterUIScript.h">
+      <Filter>Script\Monster\MonsterUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CBossMonsterUIScript.h">
+      <Filter>Script\Monster\MonsterUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneChangeScript.h">
+      <Filter>Script\SceneChange\SceneChangeScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CNotMoveScript.h">
+      <Filter>Script\SceneChange\DontMoveBlockScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneScript_01.h">
+      <Filter>Script\SceneScript\S01</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene_Boss.h">
+      <Filter>Script\SceneScript\SBoss</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneScript_02.h">
+      <Filter>Script\SceneScript\S02</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneScript_03.h">
+      <Filter>Script\SceneScript\S03</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneScript_Start.h">
+      <Filter>Script\SceneScript\SStart</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Script.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="CCameraMoveScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CMissileScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneSaveLoad.cpp" />
+    <ClCompile Include="CScriptMgr.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonsterScript.cpp">
+      <Filter>Script\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="CSkeleton_Archer.cpp">
+      <Filter>Script\Monster\1. Skeleton_Archer</Filter>
+    </ClCompile>
+    <ClCompile Include="CSkeleton_Lizard.cpp">
+      <Filter>Script\Monster\2. Skeleton_Lizard</Filter>
+    </ClCompile>
+    <ClCompile Include="CStoneEye.cpp">
+      <Filter>Script\Monster\3. StoneEye</Filter>
+    </ClCompile>
+    <ClCompile Include="CWolf.cpp">
+      <Filter>Script\Monster\4. Wolf</Filter>
+    </ClCompile>
+    <ClCompile Include="CWoodGolem.cpp">
+      <Filter>Script\Monster\5. WoodGolem</Filter>
+    </ClCompile>
+    <ClCompile Include="CBoss_Wolf.cpp">
+      <Filter>Script\Monster\6. Boss_Wolf</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerScript.cpp">
+      <Filter>Script\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayer_Weapon_Collider.cpp">
+      <Filter>Script\Player\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="CEffectScript.cpp">
+      <Filter>Script\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonster_Attack_Collider.cpp">
+      <Filter>Script\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="CGravity.cpp">
+      <Filter>Script\Gravity</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerArrow.cpp">
+      <Filter>Script\Player\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="CWall.cpp">
+      <Filter>Script\Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="CGuardScript.cpp">
+      <Filter>Script\Player\Guard</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonsterArrow.cpp">
+      <Filter>Script\Monster\1. Skeleton_Archer\Arrow</Filter>
+    </ClCompile>
+    <ClCompile Include="CShadowWolfScript.cpp">
+      <Filter>Script\Monster\6. Boss_Wolf</Filter>
+    </ClCompile>
+    <ClCompile Include="CParticleScript.cpp">
+      <Filter>Script\Effect\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerUIScript.cpp">
+      <Filter>Script\Player\PlayerUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonsterUIScript.cpp">
+      <Filter>Script\Monster\MonsterUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CBossMonsterUIScript.cpp">
+      <Filter>Script\Monster\MonsterUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneChangeScript.cpp">
+      <Filter>Script\SceneChange\SceneChangeScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CNotMoveScript.cpp">
+      <Filter>Script\SceneChange\DontMoveBlockScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneScript_01.cpp">
+      <Filter>Script\SceneScript\S01</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene_Boss.cpp">
+      <Filter>Script\SceneScript\SBoss</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneScript_02.cpp">
+      <Filter>Script\SceneScript\S02</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneScript_03.cpp">
+      <Filter>Script\SceneScript\S03</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneScript_Start.cpp">
+      <Filter>Script\SceneScript\SStart</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Default">
+      <UniqueIdentifier>{5af2d85a-2f9c-4937-9fa8-e14337ba7274}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script">
+      <UniqueIdentifier>{ac27a7a1-23b1-4a47-8b9b-231c2e57487d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Monster">
+      <UniqueIdentifier>{0599983c-353f-4c87-a1ef-843df2c7d5d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Monster\1. Skeleton_Archer">
+      <UniqueIdentifier>{0f981e93-9563-4268-9239-87280ea0b4fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Monster\2. Skeleton_Lizard">
+      <UniqueIdentifier>{bfee3ddd-5c38-40b4-a27a-45f6d740f810}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Monster\3. StoneEye">
+      <UniqueIdentifier>{fa51c72f-3a80-49c6-b45c-8c9dab3988ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Monster\4. Wolf">
+      <UniqueIdentifier>{7eb5ef7d-b585-491a-bcb9-59d7290845ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Monster\5. WoodGolem">
+      <UniqueIdentifier>{44bf1a64-07b8-4bbc-bfcd-8087cce575c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Monster\6. Boss_Wolf">
+      <UniqueIdentifier>{6d9e76e1-433e-47eb-b006-e19a1fd884c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Player">
+      <UniqueIdentifier>{680cefdd-75f0-4e7e-838b-b281cbed612b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Player\Attack">
+      <UniqueIdentifier>{c35fe802-d0e4-471b-afab-7ac46e90966e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Effect">
+      <UniqueIdentifier>{4dbdb27d-4c27-46b6-ac46-6e04c7d2d92e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Gravity">
+      <UniqueIdentifier>{d800752d-f62e-4b3c-8500-f93bd8685475}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Wall">
+      <UniqueIdentifier>{f4a0efd5-cd1e-4f89-92e4-11046d25212d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Player\Guard">
+      <UniqueIdentifier>{19add1b9-d679-487e-9b7e-5c4ace3d692c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Monster\1. Skeleton_Archer\Arrow">
+      <UniqueIdentifier>{0ce37265-3a30-4ca8-8234-c9b8fe80e542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Effect\Particle">
+      <UniqueIdentifier>{11257a02-2683-47d3-8408-57ae62983c0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Scene">
+      <UniqueIdentifier>{101dc466-af9c-4593-b817-b4d52661c8e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Scene\start">
+      <UniqueIdentifier>{ca7d45ab-b546-4a96-b82f-4b0448c23301}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Scene\Normal">
+      <UniqueIdentifier>{87d8ebf2-421d-4857-bfa3-2afc3ef5cf20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Scene\Boss">
+      <UniqueIdentifier>{f10ab446-698b-4986-9059-6fa4908a5fea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Player\PlayerUI">
+      <UniqueIdentifier>{57f01d01-3994-47af-ae3d-cc10cc5fdcbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Monster\MonsterUI">
+      <UniqueIdentifier>{98e6cb31-6d9d-4e85-a764-abfa6dac0e4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\SceneChange">
+      <UniqueIdentifier>{dd3d6978-0857-4fae-a4ef-b32c71c78ce3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\SceneChange\SceneChangeScript">
+      <UniqueIdentifier>{3d171b6d-b422-461c-89cc-669b0f0fb36f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\SceneChange\DontMoveBlockScript">
+      <UniqueIdentifier>{0c5661e3-9ee3-4de6-a974-917051409812}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\SceneScript">
+      <UniqueIdentifier>{f98c9e71-25df-4553-bef8-cecee2005f36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\SceneScript\S01">
+      <UniqueIdentifier>{21b0e4f0-ab3f-44ea-a200-1eb5db5070a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\SceneScript\S02">
+      <UniqueIdentifier>{5e232483-047b-44ab-8cb2-3a0019e0f832}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\SceneScript\S03">
+      <UniqueIdentifier>{b6e5ea66-0c57-45c2-908a-22f5d2f20332}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\SceneScript\SStart">
+      <UniqueIdentifier>{f027a0b0-9a5e-4c68-a4aa-88d82f127bf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\SceneScript\SBoss">
+      <UniqueIdentifier>{d3d211b0-1035-4eab-88d8-dd6861389a85}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+</Project>

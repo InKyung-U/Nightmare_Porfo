@@ -1,0 +1,4 @@
+﻿  CTestScene.cpp
+E:\39\39thEngine\External\Include\Script\CMonsterScript.h(56,50): warning C4244: '=': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\39\39thEngine\Project\Client\CTestScene.cpp(363,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  Client.vcxproj -> E:\39\39thEngine\OutputFile\bin_debug\Client.exe

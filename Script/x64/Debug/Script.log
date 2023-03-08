@@ -1,0 +1,47 @@
+﻿  .\Project\Script\CBossMonsterUIScript.h
+  .\Project\Script\CBoss_Wolf.h
+  .\Project\Script\CCameraMoveScript.h
+  .\Project\Script\CEffectScript.h
+  .\Project\Script\CGravity.h
+  .\Project\Script\CGuardScript.h
+  .\Project\Script\CMissileScript.h
+  .\Project\Script\CMonsterArrow.h
+  .\Project\Script\CMonsterScript.h
+  .\Project\Script\CMonsterUIScript.h
+  .\Project\Script\CMonster_Attack_Collider.h
+  .\Project\Script\CNotMoveScript.h
+  .\Project\Script\CParticleScript.h
+  .\Project\Script\CPlayerArrow.h
+  .\Project\Script\CPlayerScript.h
+  .\Project\Script\CPlayerUIScript.h
+  .\Project\Script\CPlayer_Weapon_Collider.h
+  .\Project\Script\CSceneChangeScript.h
+  .\Project\Script\CSceneSaveLoad.h
+  .\Project\Script\CSceneScript_01.h
+  .\Project\Script\CSceneScript_02.h
+  .\Project\Script\CSceneScript_03.h
+  .\Project\Script\CSceneScript_Start.h
+  .\Project\Script\CScene_Boss.h
+  .\Project\Script\CScriptMgr.h
+  .\Project\Script\CShadowWolfScript.h
+  .\Project\Script\CSkeleton_Archer.h
+  .\Project\Script\CSkeleton_Lizard.h
+  .\Project\Script\CStoneEye.h
+  .\Project\Script\CWall.h
+  .\Project\Script\CWolf.h
+  .\Project\Script\CWoodGolem.h
+  32개 파일이 복사되었습니다.
+  CPlayerScript.cpp
+E:\39\39thEngine\Project\Script\CGravity.h(43,62): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\39\39thEngine\Project\Script\CGravity.h(44,62): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\39\39thEngine\Project\Script\CPlayerScript.cpp(66,38): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\39\39thEngine\Project\Script\CPlayerScript.cpp(105,38): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\39\39thEngine\Project\Script\CPlayerScript.cpp(318,29): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+E:\39\39thEngine\Project\Script\CPlayerScript.cpp(380,25): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+E:\39\39thEngine\Project\Script\CPlayerScript.cpp(431,25): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+E:\39\39thEngine\Project\Script\CPlayerScript.cpp(456,26): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+E:\39\39thEngine\Project\Script\CPlayerScript.cpp(927,30): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\39\39thEngine\Project\Script\CPlayerScript.cpp(1057,79): warning C4244: '-=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CSkeleton_Archer.cpp
+E:\39\39thEngine\Project\Script\CMonsterScript.h(56,50): warning C4244: '=': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Script.vcxproj -> E:\39\39thEngine\External\Library\Script\Script_debug.lib
